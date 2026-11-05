@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Brithday!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="lockscreen">
+      <div id="lockicon">🔒</div>
+      <h1 id="title">Something Special for You!</h1>
+      <p>Enter your password 💗</p>
+      <p id="hint">
+        Hint: It's something I use to call you, but you are irritated with that
+      </p>
+      <input type="password" id="passwordInput" placeholder="Enter password" />
+      <button id="unlock">Unlock</button>
+      <div id="msg"></div>
+    </div>
+    <audio id="backgroundMusic" autoplay loop preload="auto">
+        <source src="sub_clair-happy-birthday-592177.mp3" type="audio/mpeg">
+    </audio>
+    <div class="maincontent">
+      <div class="up" id="top">
+        <h1 id="little">✦ A LITTLE PAGE JUST FOR YOU ✦</h1>
+      </div>
+      <div class="outbox">
+        <div class="box">
+          <icon>🎂</icon>
+          <h1 id="happymsg">Happy Birthday!</h1>
+          <p id="wishpara" style="font-family: monospace">
+            Happy birthday to the person I love the most ❤️💗
+          </p>
+          <div>
+            <p id="mainpara">
+              Happy birthday, Aanya, AKA Buddy! 🎂❤️
+              <br />
+              <br />
+              First of all, honestly, I don’t think words are enough to describe
+              how much you mean to me.
+              <br />
+              <br />
+              I hope this new chapter of your life brings you endless happiness,
+              beautiful memories, success, and everything your heart has ever
+              wished for. Never stop being the amazing, crazy, kind, and
+              wonderful person you are.
+              <br />
+              <br />
+              I hope this year comes with millions of wonderful things and that
+              you enjoy every little moment of it as much as you can. Wishing
+              you a million, billion, or trillion times more moments to laugh,
+              enjoy, make unforgettable memories, and do all the things that
+              make you happy. May life gives you so many reasons to smile that
+              you actually get tired of smiling (okay, that’s probably
+              impossible).
+            </p>
+            <br>
+            <button id="hidebox" aria-expanded="false" aria-controls="hiddenMessage">
+              A Small message for you
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="outbox" id="hiddenMessage" hidden>
+        <div class="box2">
+            <div id="miniheart">💌</div>
+            <p id="para1">
+              Thank you for being part of my life and for giving me so many
+              reasons to smile. No matter how much life changes, I hope we never
+              lose this bond and countless memories that we make.
+              <br />
+              <br />
+              Happy Birthday once again! Keep smiling, keep shining, and never
+              forget that there’s someone always there for you, anytime,
+              anywhere. You just have to text. And yes, that includes listening
+              to your endless stories, random thoughts, and complaints about
+              life. 😂
+              <br />
+              <br /><i style="color:black" id="i1">
+              Enjoy your day to the fullest, Buddy. You deserve all the
+              happiness in the world.</i><i>❤️✨</i>
+            </p>
+            <br>
+            <button id="see">Wanna see yourself?</button>
+        </div>
+        
+      </div>
+     
+      <div>
+        <button id="rainHearts">Make it Rain Hearts</button>
+        </div>
+         <footer>Made with ♡ and absolutely zero cake-sharing ability.</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
